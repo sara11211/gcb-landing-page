@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Lora&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-primary-orange: #ff5722;
+  --color-secondary-orange: #fdb834;
+  --color-orange-shadow: #ff57225e;
+  --color-orange-background: #F15E2A14;
+  --color-second-black: #232536;
+  --color-second-gray: #6D6E76;
+
+  --font-lexend: "Lexend Deca", "sans-serif";
+  --font-poppins: "Poppins", "sans-serif";
+  --font-lora: "Lora", "serif";
+  --font-lato: "Lato", "sans-serif";
+  --font-sen: "Sen", "sans-serif";
+  --font-inter: "Inter", "sans-serif";
+}
