@@ -8,9 +8,9 @@
   --color-primary-orange: #ff5722;
   --color-secondary-orange: #fdb834;
   --color-orange-shadow: #ff57225e;
-  --color-orange-background: #F15E2A14;
+  --color-orange-background: #f15e2a14;
   --color-second-black: #232536;
-  --color-second-gray: #6D6E76;
+  --color-second-gray: #6d6e76;
 
   --font-lexend: "Lexend Deca", "sans-serif";
   --font-poppins: "Poppins", "sans-serif";
@@ -18,4 +18,42 @@
   --font-lato: "Lato", "sans-serif";
   --font-sen: "Sen", "sans-serif";
   --font-inter: "Inter", "sans-serif";
+}
+
+#Adrar,
+#Oran,
+#Alger,
+#Boumerdès,
+#Laghouat,
+#Ouargla,
+#Illizi,
+#In_Salah {
+  fill: var(--color-orange-shadow);
+}
+
+#Adrar:hover,
+#Oran:hover,
+#Alger:hover,
+#Boumerdès:hover,
+#Laghouat:hover,
+#Ouargla:hover,
+#Illizi:hover,
+#In_Salah:hover {
+  fill: var(--color-primary-orange);
+  stroke-width: 3;
+  cursor: pointer;
+}
+
+path,
+polygon {
+  transition: all 0.9s;
+}
+
+polygon {
+  transition: fill 0.3s;
+  cursor: pointer;
+}
+
+#tooltip span {
+  font-weight: bolder;
 }
