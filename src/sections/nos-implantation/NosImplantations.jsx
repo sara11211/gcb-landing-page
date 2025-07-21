@@ -18,10 +18,7 @@ const NosImplantations = () => {
         </span>
         Nos implantations en Algérie
       </h2>
-
-      {/* Responsive layout */}
       <div className="flex flex-col-reverse md:flex-row justify-center items-start mt-12 md:mt-20 gap-2 md:gap-16">
-        {/* List */}
         <div className="w-full md:max-w-md">
           {wilayas.map((city, index) => (
             <div key={city.name} className="border-b border-purple-200">

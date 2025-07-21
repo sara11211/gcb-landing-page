@@ -18,9 +18,5 @@ export const clients = [
   {
     name: "Repsol",
     image: "/images/nos-clients/repsol.png",
-  },
-  {
-    name: "Sonatrach",
-    image: "/images/nos-clients/sonatrach.svg",
-  },
+  }
 ];
