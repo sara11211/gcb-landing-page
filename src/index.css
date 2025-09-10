@@ -9,8 +9,12 @@
   --color-secondary-orange: #fdb834;
   --color-orange-shadow: #ff57225e;
   --color-orange-background: #f15e2a14;
-  --color-second-black: #232536;
+  --color-second-black: #1F1F1F;
   --color-second-gray: #6d6e76;
+
+  --color-text-black: #121212;
+  --color-text-white: #C8CFD5;
+  --color-text-gray: #6F7174;
 
   --font-lexend: "Lexend Deca", "sans-serif";
   --font-poppins: "Poppins", "sans-serif";

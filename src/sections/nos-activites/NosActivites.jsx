@@ -6,13 +6,29 @@ const NosActivites = () => {
   const [activeIndex, setActiveIndex] = useState(2);
 
   return (
-    <section className="flex flex-col gap-12 px-4 md:px-12 lg:px-32">
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-14 font-lora lg:pr-56 xl:pr-96 sm:pr-24">
-        Nous nous engageons dans 
-        plusieurs activités
-      </h2>
+    <section className="flex flex-col gap-12 lg:gap-20 px-4 md:px-12 lg:px-20 xl:px-32">
+      <div className="flex flex-col lg:gap-6 lg:flex-row lg:items-center lg:justify-between">
+        {/* Left side: subtitle + title */}
+        <div className="flex flex-col gap-2 lg:flex-2">
+          <p className="text-primary-orange text-sm">Nos Activités</p>
+          <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold leading-tight">
+            Activités au service
+            <br />
+            de la performance
+          </h2>
+        </div>
 
-      <div className="flex flex-col lg:flex-row items-start gap-10 xl:gap-20 max-w-7xl font-lato font-bold tracking-wide">
+        {/* Right side: paragraph */}
+        <div className="lg:flex-1 max-sm:w-[90%] max-lg:w-[70%]">
+          <p className=" text-sm pt-6 text-text-gray">
+            GCB met en œuvre son savoir-faire et ses compétences dans des domaines
+            variés, afin de répondre aux besoins stratégiques du pays et d'accompagner
+            ses partenaires.
+          </p>
+        </div>
+      </div>
+
+      <div className="flex flex-col lg:flex-row items-start gap-10 xl:gap-20 max-w-7xl font-bold tracking-wide">
         <div className="flex">
           {/* Barre verticale avec compteur */}
           <div className="flex flex-col items-center gap-4">
@@ -26,7 +42,7 @@ const NosActivites = () => {
               />
             </div>
             {/* Compteur */}
-            <div className="text-sm text-gray-500 font-light -rotate-90 font-lato">
+            <div className="text-sm text-gray-500 font-light -rotate-90">
               <span className="font-bold text-black pr-1">
                 {String(activeIndex + 1).padStart(2, "0")}
               </span>
@@ -40,21 +56,18 @@ const NosActivites = () => {
               <div
                 key={item.id}
                 onClick={() => setActiveIndex(index)}
-                className={`cursor-pointer py-1 transition-all duration-300 relative ${
-                  index === activeIndex ? "font-bold text-white" : "text-black"
-                }`}
+                className={`cursor-pointer py-1 transition-all duration-300 relative ${index === activeIndex ? "font-bold text-white" : "text-black"
+                  }`}
               >
                 <div
-                  className={`absolute -left-6 h-full w  bg-primary-orange transition-all duration-300 ${
-                    index === activeIndex ? "opacity-100" : "opacity-0"
-                  }`}
+                  className={`absolute -left-6 h-full w  bg-primary-orange transition-all duration-300 ${index === activeIndex ? "opacity-100" : "opacity-0"
+                    }`}
                 ></div>
                 <div
-                  className={`px-6 py-6 transition-all duration-300 ${
-                    index === activeIndex
-                      ? "bg-primary-orange text-white shadow-orange-shadow shadow-xl"
-                      : ""
-                  }`}
+                  className={`text-sm lg:text-base px-6 py-6 transition-all duration-300 ${index === activeIndex
+                    ? "bg-primary-orange text-white shadow-orange-shadow shadow-xl"
+                    : ""
+                    }`}
                 >
                   {item.titre}
                 </div>
