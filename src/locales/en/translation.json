@@ -1,0 +1,78 @@
+{
+  "logo": "GCB",
+  "home": "Home",
+  "ceoMessage": "CEO Message",
+  "projects": "Projects",
+  "news": "News",
+  "qHSE": "QHSE",
+  "contacts": "Contacts",
+  "constructionSite": "Construction site",
+  "slogan": "GCB, building today the solutions of tomorrow.",
+  "description": "We build infrastructures that connect territories and improve the lives of millions of people.",
+  "growth": "Revenue Growth",
+  "employees": "Average Employees",
+  "equipment": "Modern Equipment",
+    "hero": {
+    "gcb": "GCB,",
+    "build": "building",
+    "today": "today",
+    "solutions": "the solutions of tomorrow.",
+    "subtitle": "We build infrastructures that connect\nterritories and improve the lives of millions of people."
+  },
+
+  "activities": {
+    "subtitle": "Our Activities",
+    "title": "Activities serving performance",
+    "description": "GCB applies its expertise and skills in various fields to meet the country’s strategic needs and support its partners.",
+    "items": {
+      "engineering": "Engineering & Procurement",
+      "pipeline": "Pipeline",
+      "civil": "Industrial Civil Engineering",
+      "maintenance": "Maintenance",
+      "gas": "Gas & Oil"
+    }
+  },
+  "projects_": {
+    "sectionTitle": "Our Projects",
+    "header": "Discover our ongoing projects",
+    "description": "Our projects reflect GCB's expertise and know-how, carried out with rigor and commitment to meet the expectations of our partners.",
+    "button": "View project",
+    "1": { "title": "EPC life base construction in Ain Tsila" },
+    "2": { "title": "Construction of a desalination plant in Corso, Boumerdès" },
+    "3": { "title": "Construction of the collection network for connection in Tinhert" },
+    "4": { "title": "Construction of the collection network for connection in Tinhert at Alrar" },
+    "5": { "title": "Construction of the collection network for connection in Tinhert at Alrar" },
+    "6": { "title": "Construction of the collection network for connection in Tinhert at Alrar" }
+  },
+  "news_": {
+    "sectionTitle": "Our News",
+    "header": "Live from GCB",
+    "allArticles": "All Articles",
+    "seeMore": "See more",
+    "newsletter": {
+      "title": "Get the latest news",
+      "placeholder": "Your Email",
+      "button": "Subscribe"
+    },
+    "button": "Read more"
+  },
+  "implantations": {
+    "sectionTitle": "Our Locations",
+    "header": "Presence and infrastructures<br />across the national territory"
+  },
+    "clients": {
+    "subtitle": "Our Clients",
+    "title": "They trust us"
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "description": "With passion and commitment, we build structures that connect people, protect the environment, and shape a responsible future.",
+    "navigation": "Navigation",
+    "links": {
+      "projects": "Projects",
+      "news": "News",
+      "qhse": "QHSE",
+      "contact": "Contact"
+    }
+  }
+}

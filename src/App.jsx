@@ -1,21 +1,25 @@
-import React from "react";
-import NosActivites from "./sections/nos-activites/NosActivites";
-import NosActualites from "./sections/nos-actualites/NosActualites";
-import NosImplantations from "./sections/nos-implantation/NosImplantations";
-import Hero from "./sections/hero/Hero";
-import NosClients from "./sections/nos-clients/NosClients";
-import NosProjects from "./sections/nos-projets/NosProjects";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import News from "./pages/News";
+import QHSE from "./pages/QHSE";
+import CeoMessage from "./pages/CeoMessage";
 
-const App = () => {
+function App() {
   return (
-    <main className="flex gap-24 flex-col font-lexend">
-      <NosActivites />
-      <NosActualites />
-      <NosImplantations />
-      <NosClients />
-      <NosProjects />
-    </main>
+    <Router>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/qhse" element={<QHSE />} />
+        <Route path="/ceo-message" element={<CeoMessage />} />
+      </Routes>
+    </Router>
   );
-};
+}
 
 export default App;

@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import { useTranslation } from "react-i18next";
 
-const Button = ({ text = "Lire la suite"}) => {
+const Button = ({ textKey = "news_.button" }) => {
+  const { t } = useTranslation();
   return (
-    <button className='bg-primary-orange font-sen font-bold text-second-black px-12 py-4 cursor-pointer'>
-        {text} &gt;
+    <button className="bg-primary-orange font-sen font-bold text-white px-12 py-4 cursor-pointer hover:bg-orange-600 transition-colors">
+      {t(textKey)} &gt;
     </button>
-  )
-}
+  );
+};
 
-export default Button
+export default Button;

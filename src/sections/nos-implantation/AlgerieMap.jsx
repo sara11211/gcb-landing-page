@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 
-const AlgerieMap = () => {
+const AlgerieMap = ({selectedCity}) => {
   const [tooltip, setTooltip] = useState({
     visible: false,
     text: "",
@@ -45,6 +45,12 @@ const AlgerieMap = () => {
     setTooltip({ visible: false, text: "", x: 0, y: 0 });
   };
 
+// In AlgerieMap.jsx
+const getFillColor = (id) => {
+  if (selectedCity === id) return "var(--color-primary-orange)";
+  return "var(--color-orange-shadow)"; // default gray
+};
+
   return (
     <div id="main" style={{ position: "relative" }}>
       <svg
@@ -74,7 +80,7 @@ const AlgerieMap = () => {
         <polygon
           number="1"
           id="Adrar"
-          fill="#302E39"
+          fill={getFillColor("Adrar")}
           stroke="#F15E2A"
           strokeWidth="0.75"
           strokeLinecap="round"
@@ -96,7 +102,7 @@ const AlgerieMap = () => {
         <polygon
           number="3"
           id="Laghouat"
-          fill="#302E39"
+          fill={getFillColor("Laghouat")}
           stroke="#F15E2A"
           strokeWidth="0.75"
           strokeLinecap="round"
@@ -239,7 +245,7 @@ const AlgerieMap = () => {
         <path
           number="16"
           id="Alger"
-          fill="#302E39"
+          fill={getFillColor("Alger")}
           stroke="#F15E2A"
           strokeWidth="0.75"
           strokeLinecap="round"
@@ -393,7 +399,7 @@ const AlgerieMap = () => {
         <path
           number="30"
           id="Ouargla"
-          fill="#302E39"
+          fill={getFillColor("Ouargla")}
           stroke="#F15E2A"
           strokeWidth="0.75"
           strokeLinecap="round"
@@ -404,7 +410,7 @@ const AlgerieMap = () => {
         <path
           number="31"
           id="Oran"
-          fill="#302E39"
+          fill={getFillColor("Oran")}
           stroke="#F15E2A"
           strokeWidth="0.75"
           strokeLinecap="round"
@@ -426,7 +432,7 @@ const AlgerieMap = () => {
         <polygon
           number="33"
           id="Illizi"
-          fill="#302E39"
+          fill={getFillColor("Illizi")}
           stroke="#F15E2A"
           strokeWidth="0.75"
           strokeLinecap="round"
@@ -448,7 +454,7 @@ const AlgerieMap = () => {
         <path
           number="35"
           id="Boumerdès"
-          fill="#302E39"
+          fill={getFillColor("Boumerdes")}
           stroke="#F15E2A"
           strokeWidth="0.75"
           strokeLinecap="round"
@@ -690,7 +696,7 @@ const AlgerieMap = () => {
         <path
           number="57"
           id="In_Salah"
-          fill="#302E39"
+          fill={getFillColor("In Salah")}
           stroke="#F15E2A"
           strokeWidth="0.75"
           strokeLinecap="round"

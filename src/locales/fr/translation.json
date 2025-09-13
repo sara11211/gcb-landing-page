@@ -1,0 +1,77 @@
+{
+    "logo": "GCB",
+    "home": "Accueil",
+    "ceoMessage": "Mot du PDG",
+    "projects": "Projets",
+    "news": "Actualités",
+    "qHSE": "QHSE",
+    "contacts": "Contacts",
+    "constructionSite": "Construction site",
+    "slogan": "GCB, construire aujourd'hui les solutions de demain.",
+    "description": "Nous bâtissons des infrastructures qui relient les territoires et améliorent la vie de millions de personnes.",
+    "growth": "Croissance du CA",
+    "employees": "Employés en moyenne",
+    "equipment": "Équipements modernes",
+    "hero": {
+    "gcb": "GCB,",
+    "build": "construire",
+    "today": "aujourd'hui",
+    "solutions": "les solutions de demain.",
+    "subtitle": "Nous bâtissons des infrastructures qui relient\nles territoires et améliorent la vie de millions de personnes."
+  },
+  "activities": {
+    "subtitle": "Nos Activités",
+    "title": "Activités au service de la performance",
+    "description": "GCB met en œuvre son savoir-faire et ses compétences dans des domaines variés, afin de répondre aux besoins stratégiques du pays et d'accompagner ses partenaires.",
+    "items": {
+      "engineering": "Engineering & Procurement",
+      "pipeline": "Pipeline",
+      "civil": "Génie civil industriel",
+      "maintenance": "Maintenance",
+      "gas": "Gas & Oil"
+    }
+  },
+  "projects_": {
+    "sectionTitle": "Nos Projets",
+    "header": "Découvrez nos projets en cours de réalisation",
+    "description": "Nos projets témoignent de l'expertise et du savoir-faire de GCB, réalisés avec rigueur et engagement pour répondre aux attentes de nos partenaires.",
+    "button": "Voir le projet",
+    "1": { "title": "Réalisation en EPC base de vie Fabrication à Ain Tsila" },
+    "2": { "title": "Réalisation d'une station de dessalement à Corso, Boumerdès" },
+    "3": { "title": "Réalisation du réseau de collecte pour le raccordement à Tinhert" },
+    "4": { "title": "Réalisation du réseau de collecte pour le raccordement à Tinhert à Alrar" },
+    "5": { "title": "Réalisation du réseau de collecte pour le raccordement à Tinhert à Alrar" },
+    "6": { "title": "Réalisation du réseau de collecte pour le raccordement à Tinhert à Alrar" }
+  },
+  "news_": {
+    "sectionTitle": "Nos Actualités",
+    "header": "En direct de GCB",
+    "allArticles": "Tous les articles",
+    "seeMore": "Voir plus",
+    "newsletter": {
+      "title": "Recevez les dernières nouvelles",
+      "placeholder": "Votre Email",
+      "button": "S'abonner"
+    },
+    "button": "Lire la suite"
+  },
+  "implantations": {
+    "sectionTitle": "Nos Implantations",
+    "header": "Présence et infrastructures à<br />travers le territoire national"
+  },
+  "clients": {
+    "subtitle": "Nos Clients",
+    "title": "Ils nous font confiance"
+  },
+  "footer": {
+    "copyright": "Tous droits réservés.",
+    "description": "Avec passion et exigence, nous bâtissons des ouvrages qui relient les hommes, protègent l'environnement et façonnent un avenir responsable.",
+    "navigation": "Navigation",
+    "links": {
+      "projects": "Projets",
+      "news": "Actualités",
+      "qhse": "QHSE",
+      "contact": "Contact"
+    }
+  }
+}
