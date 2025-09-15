@@ -22,7 +22,7 @@ const NosProjects = () => {
             {/* Background split */}
             <div className="xl:h-[100vh]">
                 <div className="xl:h-[93.2%] xl:bg-second-black"></div>
-                <div className="xl:h-[20%] xl:bg-white"></div>
+                <div className="xl:h-[20%] xl:bg-white 2xl:hidden"></div>
             </div>
 
             {/* Content overlay */}

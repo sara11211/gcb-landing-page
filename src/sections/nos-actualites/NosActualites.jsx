@@ -1,12 +1,37 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Button from "./Button";
-import { articles } from "../../data/articles";
 import Newsletter from "./Newsletter";
 import { useTranslation } from "react-i18next";
 
 const NosActualites = () => {
-  const [selectedArticle, setSelectedArticle] = useState(articles[0]);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  // Récupère le tableau d'articles traduit depuis les fichiers i18n
+  const localizedArticles = t("articles", { returnObjects: true }) || [];
+
+  // selectedArticle initialisé quand les articles traduits sont disponibles
+  const [selectedArticle, setSelectedArticle] = useState(
+    localizedArticles.length ? localizedArticles[0] : null
+  );
+
+  // Quand la langue change ou que les articles traduits changent, on met à jour la sélection
+  useEffect(() => {
+    if (localizedArticles && localizedArticles.length) {
+      setSelectedArticle(localizedArticles[0]);
+    } else {
+      setSelectedArticle(null);
+    }
+    // on surveille i18n.language pour réagir au changement de langue
+  }, [i18n.language, localizedArticles.length]);
+
+  // Option : afficher un fallback si pas d'articles
+  if (!selectedArticle) {
+    return (
+      <section className="px-4 sm:px-8 md:px-16 lg:px-32 py-12">
+        <p className="text-center text-gray-500">{t("news_.noArticles", "Aucune actualité pour le moment")}</p>
+      </section>
+    );
+  }
 
   return (
     <>
@@ -35,7 +60,8 @@ const NosActualites = () => {
               <div>
                 <div className="flex flex-col gap-2 mb-6 sm:mb-8">
                   <p className="text-gray-500 text-sm">
-                    By <span className="text-purple-800">{selectedArticle.author}</span> |{" "}
+                    {t("news_.by")}{" "}
+                    <span className="text-purple-800">{selectedArticle.author}</span> |{" "}
                     {selectedArticle.date}
                   </p>
                   <h3 className="font-lexend font-bold text-xl sm:text-2xl">
@@ -59,7 +85,7 @@ const NosActualites = () => {
               </a>
             </div>
             <ul className="font-inter">
-              {articles.map((item, index) => (
+              {localizedArticles.map((item, index) => (
                 <li
                   key={index}
                   onClick={() => setSelectedArticle(item)}
@@ -68,7 +94,8 @@ const NosActualites = () => {
                   }`}
                 >
                   <p className="text-xs sm:text-sm">
-                    By <span className="text-purple-900">{item.author}</span> | {item.date}
+                    
+                    <span className="text-purple-900">{item.author}</span> | {item.date}
                   </p>
                   <span className="font-sen text-base sm:text-lg font-bold">
                     {item.title}

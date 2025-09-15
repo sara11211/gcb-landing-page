@@ -1,23 +1,32 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbar from "./sections/navbar/Navbar";
 import Home from "./pages/Home";
-import Projects from "./pages/Projects";
+import CeoMessage from "./pages/CeoMessage";
+import Footer from "./sections/footer/Footer";
+import Projets from "./pages/Projets";
 import News from "./pages/News";
 import QHSE from "./pages/QHSE";
-import CeoMessage from "./pages/CeoMessage";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <div className="flex flex-col min-h-screen">
+        <Navbar />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/news" element={<News />} />
-        <Route path="/qhse" element={<QHSE />} />
-        <Route path="/ceo-message" element={<CeoMessage />} />
-      </Routes>
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/ceo-message" element={<CeoMessage />} />
+            <Route path="/projects" element={<Projets />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/qhse" element={<QHSE />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+
+        <Footer />
+      </div>
     </Router>
   );
 }

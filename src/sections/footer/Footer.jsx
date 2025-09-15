@@ -5,10 +5,10 @@ const Footer = () => {
   const { t } = useTranslation();
 
   const navigationLinks = [
-    { name: t("footer.links.projects"), href: "#" },
-    { name: t("footer.links.news"), href: "#" },
-    { name: t("footer.links.qhse"), href: "#" },
-    { name: t("footer.links.contact"), href: "#" },
+    { name: t("footer.links.projects"), href: "/projects" },
+    { name: t("footer.links.news"), href: "/news" },
+    { name: t("footer.links.qhse"), href: "/qhse" },
+    { name: t("footer.links.contact"), href: "/contact" },
   ];
 
   return (

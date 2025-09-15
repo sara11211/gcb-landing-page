@@ -6,7 +6,7 @@ const NosClients = () => {
   const { t } = useTranslation();
 
   return (
-    <section className='flex flex-col gap-12'>
+    <section className='flex flex-col gap-12 mb-12'>
       <div className="flex flex-col gap-2 lg:flex-2 text-center">
         <p className="text-primary-orange text-sm">{t("clients.subtitle")}</p>
         <h2 className="text-3xl md:text-4xl xl:text-5xl font-bold leading-tight">

@@ -8,8 +8,7 @@ const Header = () => {
 
   return (
     <>
-      <Navbar />
-      <section className="bg-white mb-6 max-md:mt-20">
+      <section className="bg-white mb-6">
         <div className="relative min-h-screen flex items-center justify-center overflow-hidden pt-12">
           {/* Background Image with Overlay */}
           <motion.div
