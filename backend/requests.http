@@ -1,0 +1,32 @@
+### Subscribe with a new email (will send confirmation email with token)
+POST http://localhost:5000/api/subscribe
+Content-Type: application/json
+
+{
+  "email": "ms_abaziz@esi.dz"
+}
+
+###
+
+# ⚠️ After this request, check your server logs or email inbox for the confirmation link.
+# It will look like: http://localhost:5000/api/confirm?token=abcd1234
+# Copy-paste that token below to simulate the confirmation step.
+
+### Confirm subscription (replace TOKEN_VALUE with the token you got in email/logs)
+GET http://localhost:5000/api/confirm?token=TOKEN_VALUE
+
+###
+
+### Add a news article (will only be sent to verified subscribers)
+POST http://localhost:5000/api/news
+Content-Type: application/json
+
+{
+  "title": "Demo Project Launched",
+  "content": "This is a demo news article for the newsletter."
+}
+
+###
+
+### (Optional) Check list of subscribers (for debugging)
+GET http://localhost:5000/api/subscribers

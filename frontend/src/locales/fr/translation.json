@@ -1,0 +1,247 @@
+{
+    "logo": "GCB",
+    "home": "Accueil",
+    "ceoMessage": "Mot du PDG",
+    "projects": "Projets",
+    "news": "Actualités",
+    "qHSE": "QHSE",
+    "contacts": "Contacts",
+    "constructionSite": "Construction site",
+    "slogan": "GCB, construire aujourd'hui les solutions de demain.",
+    "description": "Nous bâtissons des infrastructures qui relient les territoires et améliorent la vie de millions de personnes.",
+    "growth": "Croissance du CA",
+    "employees": "Employés en moyenne",
+    "equipment": "Équipements modernes",
+    "hero": {
+    "gcb": "GCB,",
+    "build": "construire",
+    "today": "aujourd'hui",
+    "solutions": "les solutions de demain.",
+    "subtitle": "Nous bâtissons des infrastructures qui relient\nles territoires et améliorent la vie de millions de personnes."
+  },
+  "activities": {
+    "subtitle": "Nos Activités",
+    "title": "Activités au service de la performance",
+    "description": "GCB met en œuvre son savoir-faire et ses compétences dans des domaines variés, afin de répondre aux besoins stratégiques du pays et d'accompagner ses partenaires.",
+    "items": {
+      "engineering": "Engineering & Procurement",
+      "pipeline": "Pipeline",
+      "civil": "Génie civil industriel",
+      "maintenance": "Maintenance",
+      "gas": "Gas & Oil"
+    }
+  },
+  "projects_": {
+    "sectionTitle": "Nos Projets",
+    "header": "Découvrez nos projets en cours de réalisation",
+    "description": "Nos projets témoignent de l'expertise et du savoir-faire de GCB, réalisés avec rigueur et engagement pour répondre aux attentes de nos partenaires.",
+    "button": "Voir le projet",
+    "1": { "title": "Réalisation en EPC base de vie Fabrication à Ain Tsila" },
+    "2": { "title": "Réalisation d'une station de dessalement à Corso, Boumerdès" },
+    "3": { "title": "Réalisation du réseau de collecte pour le raccordement à Tinhert" },
+    "4": { "title": "Réalisation du réseau de collecte pour le raccordement à Tinhert à Alrar" },
+    "5": { "title": "Réalisation du réseau de collecte pour le raccordement à Tinhert à Alrar" },
+    "6": { "title": "Réalisation du réseau de collecte pour le raccordement à Tinhert à Alrar" }
+  },
+  "news_": {
+    "sectionTitle": "Nos Actualités",
+    "header": "En direct de GCB",
+    "allArticles": "Tous les articles",
+    "seeMore": "Voir plus",
+    "newsletter": {
+      "title": "Recevez les dernières nouvelles",
+      "placeholder": "Votre Email",
+      "button": "S'abonner",
+      "success": "Vous recevrez de nos nouvelles!",
+      "invalid": "Entrez une adresse valide."
+    },
+    "button": "Lire la suite"
+  },
+  "implantations": {
+    "sectionTitle": "Nos Implantations",
+    "header": "Présence et infrastructures à<br />travers le territoire national"
+  },
+  "clients": {
+    "subtitle": "Nos Clients",
+    "title": "Ils nous font confiance"
+  },
+  "footer": {
+    "copyright": "Tous droits réservés.",
+    "description": "Avec passion et exigence, nous bâtissons des ouvrages qui relient les hommes, protègent l'environnement et façonnent un avenir responsable.",
+    "navigation": "Navigation",
+    "links": {
+      "projects": "Projets",
+      "news": "Actualités",
+      "qhse": "QHSE",
+      "contact": "Contact"
+    }
+  },
+"ceoMessagePage": {
+  "heroTitle": "Mot du PDG",
+  "quote": "« En 2022, la GCB a réalisé une croissance remarquable de +31 %, assurant ainsi la pérennité de l’entreprise. »",
+  "intro": "L’année 2022 a marqué un tournant décisif pour la GCB. Grâce à la synergie entre stratégie, décisions audacieuses et efforts constants à tous les niveaux, notre entreprise a enregistré une augmentation remarquable de +31 % de son chiffre d’affaires par rapport à 2021. Cette performance renforce notre position et garantit la pérennité de l’entreprise.",
+  "sections": {
+    "partnership": {
+      "title": "Le Partenariat comme Moteur",
+      "content": "Notre vision du partenariat s’est concrétisée avec la signature d’un contrat majeur à Alrar, en collaboration avec Petrofac, où la part nationale représentait près de 37 %. Cette orientation reflète notre volonté de bâtir des relations solides, de partager le savoir-faire et de nous ouvrir à de nouvelles opportunités tant sur le plan national qu’international."
+    },
+    "industrialExcellence": {
+      "title": "L’Excellence Industrielle",
+      "content": "La GCB s’est distinguée dans la fabrication et la construction mécanique, notamment à travers la mise en service de 38 stations de raclage dans le Sud-Ouest. Ces réalisations témoignent de nos investissements stratégiques et ouvrent la voie à un programme ambitieux pour 2023."
+    },
+    "strategicNeeds": {
+      "title": "Répondre aux Besoins Stratégiques",
+      "content": "Nous avons intégré l’activité d’injection d’eau à travers le projet « Fourniture de systèmes d’injection d’eau » sur le gisement BRS. Parallèlement, la GCB a contribué aux programmes nationaux d’urgence pour sécuriser l’alimentation en eau potable, en construisant deux stations de dessalement : l’une à Boumerdès (80 000 m³/jour) et l’autre à Oran (300 000 m³/jour)."
+    },
+    "environmentalCommitment": {
+      "title": "Un Engagement Environnemental",
+      "content": "Consciente des enjeux mondiaux, la GCB contribue activement à la protection de l’environnement à travers la mise en œuvre de projets de récupération du gaz torché. Ces initiatives permettent de réduire les émissions de CO₂ et confirment notre rôle d’acteur responsable et durable."
+    }
+  }
+},
+  "projets-cours": [
+    {
+      "id": 1,
+      "title": "Extension du complexe pétrochimique de Skikda",
+      "image": "/images/nos-activites/image_5.jpg",
+      "description": "Travaux en cours pour l’agrandissement et la modernisation du complexe pétrochimique de Skikda."
+    },
+    {
+      "id": 2,
+      "title": "Réhabilitation de l’autoroute Est-Ouest",
+      "image": "/images/nos-activites/image_2.jpg",
+      "description": "Projet en cours pour la réhabilitation et l’entretien de plusieurs tronçons stratégiques."
+    }
+  ],
+  "projets-realises": [
+    {
+      "id": 1,
+      "title": "Construction du siège social Sonatrach",
+      "image": "/images/nos-activites/image_4.jpg",
+      "description": "Réalisation complète et livraison du nouveau siège social de Sonatrach à Alger."
+    },
+    {
+      "id": 2,
+      "title": "Pipeline gazier GR5",
+      "image": "/images/nos-activites/image_1.jpg",
+      "description": "Construction et mise en service du pipeline reliant Hassi R'mel aux zones côtières."
+    }
+  ],
+  "grands-projets": [
+    {
+      "id": 1,
+      "title": "Base de vie Ain Tsila (EPC)",
+      "image": "/images/nos-activites/image_1.jpg",
+      "description": "Conception et réalisation d’une base de vie complète pour le projet gazier Ain Tsila."
+    },
+    {
+      "id": 2,
+      "title": "Centrale électrique de Mostaganem",
+      "image": "/images/nos-activites/image_2.jpg",
+      "description": "Construction et mise en service d’une centrale électrique moderne à cycle combiné."
+    },
+    {
+      "id": 3,
+      "title": "Extension du port de Béjaïa",
+      "image": "/images/nos-activites/image_3.jpg",
+      "description": "Travaux d’agrandissement et de modernisation du port afin d’augmenter sa capacité."
+    },
+    {
+      "id": 4,
+      "title": "Usine de dessalement d’Alger",
+      "image": "/images/nos-activites/image_4.jpg",
+      "description": "Réalisation d’une usine de dessalement de l’eau de mer pour l’approvisionnement en eau potable."
+    }
+  ],
+
+  "projectsPage": {
+    "title": "Nos projets",
+    "tabs": {
+      "ongoing": "Projets en cours",
+      "completed": "Projets réalisés",
+      "major": "Grands projets"
+    },
+    "seeProject": "Voir projet"
+  },
+
+  "newsPage": {
+    "title": "Nos Actualités",
+    "searchPlaceholder": "Rechercher des actualités...",
+    "dateLabel": "Date",
+    "readMore": "Lire la suite"
+  },
+  "newsData": {
+    "1": {
+      "title": "GCB signe un nouveau contrat pour la réalisation d’un complexe gazier à Hassi R’mel",
+      "category": "Projet"
+    },
+    "2": {
+      "title": "Inauguration du siège régional de GCB à Oran",
+      "category": "Événement"
+    },
+    "3": {
+      "title": "GCB reçoit le prix de l’excellence industrielle lors du Salon International du BTP à Alger",
+      "category": "Distinction"
+    },
+    "4": {
+      "title": "Lancement des travaux d’extension du port pétrolier de Skikda en partenariat avec Sonatrach",
+      "category": "Projet"
+    }
+  },
+  "qhse": {
+    "title": "QHSE",
+    "quality": {
+      "tag": "Qualité",
+      "heading": "Un Système Qualité Certifié Et Engagé Pour L'Excellence",
+      "paragraph": "GCB est certifiée ISO 9001:2015 pour son Système de Management de la Qualité (SMQ). Nous nous engageons à :",
+      "list": [
+        "Offrir des prestations conformes aux standards internationaux.",
+        "Améliorer en continu nos processus pour satisfaire nos clients et partenaires.",
+        "Motiver, former et impliquer nos collaborateurs.",
+        "Assurer la performance grâce à la maîtrise des coûts et la traçabilité."
+      ]
+    },
+    "hse": {
+      "tag": "HSE",
+      "heading": "Santé, Sécurité et Environnement",
+      "paragraph": "GCB a mis en place un Système de Management certifié ISO 45001:2018 (Santé & Sécurité au Travail) et ISO 14001:2015 (Environnement). Nos priorités :",
+      "list": [
+        "Prévenir les risques et offrir un environnement sûr.",
+        "Déployer une culture SST active et participative.",
+        "Réduire nos impacts environnementaux.",
+        "Améliorer nos performances énergétiques et optimiser la gestion des déchets.",
+        "Respecter la réglementation et valoriser notre image responsable."
+      ]
+    }
+  },
+"articles": [
+    {
+      "title": "Deuxième Workshop COST sur la promotion de la fabrication",
+      "author": "GCB Spa",
+      "date": "25 Décembre 2022",
+      "description": "GCB a organisé le deuxième Workshop COST afin de renforcer les capacités de fabrication mécanique dans toutes ses filiales, dans le cadre d’un effort stratégique pour la production locale et la compétitivité.",
+      "image": "/images/actualites/image_1.jpg"
+    },
+    {
+      "title": "Revue de Direction du Système de Management de la Santé au Travail",
+      "author": "Service QHSE - GCB",
+      "date": "06 Décembre 2022",
+      "description": "Réunion de haut niveau pour évaluer les progrès du système de gestion HSE chez GCB, incluant des indicateurs de sécurité, des plans d’amélioration et des retours d’expérience.",
+      "image": "/images/actualites/image_2.jpg"
+    },
+    {
+      "title": "Engagement de GCB dans la réalisation du projet de la Desserte",
+      "author": "GCB Projets",
+      "date": "25 Juillet 2022",
+      "description": "GCB assume le rôle de chef de file pour le projet de desserte ferroviaire entre Ain-Beida et F’Kirina, renforçant son positionnement sur les infrastructures ferroviaires.",
+      "image": "/images/actualites/image_3.jpg"
+    },
+    {
+      "title": "Réunion de travaux de développement en local des équipements EPF",
+      "author": "Direction Technique - GCB",
+      "date": "01 Avril 2021",
+      "description": "Session de travail dédiée au développement local des équipements EPF pour accroître la capacité de production nationale et réduire la dépendance aux importations.",
+      "image": "/images/actualites/image_4.jpg"
+    }
+  ]
+}
